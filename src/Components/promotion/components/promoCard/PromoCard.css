@@ -1,0 +1,184 @@
+.promoCard {
+  background-color: aqua;
+  width: 92%;
+  margin: 5rem;
+  border-radius: 2rem;
+  display: flex;
+}
+.promoCard_number {
+  font-size: 10rem;
+  margin-left: 4rem;
+  padding-top: 14rem;
+  background-color: rgb(68, 165, 255);
+  border: 0.5rem solid rgb(123, 123, 255);
+  color: #fff;
+}
+.promoCard_img {
+  width: 30%;
+  margin-left: 3rem;
+}
+.promoCard_TextDiv {
+  text-align: left;
+  color: #fff;
+  margin-left: 3rem;
+  padding: 2rem;
+}
+.promoCard_TextDivHeading {
+  font-size: 5rem;
+  margin-top: 15rem;
+  text-transform: uppercase;
+}
+.promoCard_TextDivTitle {
+  font-size: 3rem;
+  width: 80%;
+  margin-top: 2rem;
+  text-transform: capitalize;
+}
+.promoCard_TextDivButton {
+  font-size: 2rem;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border: 0.1rem solid #fff;
+  background: none;
+  margin-top: 2rem;
+  color: #fff;
+}
+.promoCard_TextDivButton:hover {
+  background-color: gray;
+}
+.promoCard_ratingDiv {
+  color: #fff;
+  margin: 5rem;
+  text-align: left;
+  margin-top: 14rem;
+}
+.promoCard_ratingDivRating {
+  font-size: 9rem;
+  padding: 2rem;
+}
+.promoCard_ratingDivView {
+  font-size: 2rem;
+}
+.promoCard_ratingDivLike {
+  margin-top: 1rem;
+}
+@media (min-width: 781px) and (max-width: 1279px) {
+  .promoCard_number {
+    font-size: 6rem;
+  }
+  .promoCard_TextDivHeading {
+    font-size: 3rem;
+  }
+  .promoCard_TextDivTitle {
+    font-size: 2rem;
+  }
+  .promoCard_TextDivButton {
+    font-size: 1.5rem;
+  }
+  .promoCard_ratingDivRating {
+    font-size: 5rem;
+  }
+  .promoCard_ratingDivView {
+    font-size: 1.5rem;
+  }
+  .promoCard_ratingDivLike {
+    font-size: 1.5rem;
+  }
+  .promoCard_ratingDivLike {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 780px) {
+  .promoCard {
+    width: 85%;
+    flex-direction: column;
+  }
+  .promoCard_number {
+    display: none;
+  }
+  .promoCard_img {
+    width: 90%;
+  }
+  .promoCard_TextDivHeading {
+    font-size: 4rem;
+    width: 98%;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .promoCard_TextDivTitle {
+    font-size: 2.5rem;
+    width: 98%;
+    text-align: center;
+  }
+  .promoCard_TextDivButton {
+    font-size: 2rem;
+    font-weight: 500;
+    width: 98%;
+    text-align: center;
+  }
+  .promoCard_ratingDivRating {
+    font-size: 5rem;
+    text-align: center;
+    margin-top: -12rem;
+  }
+  .promoCard_ratingDivView {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .promoCard_ratingDivLike {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .promoCard_ratingDivLike {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .promoCard {
+    width: 85%;
+    flex-direction: column;
+  }
+  .promoCard_number {
+    display: none;
+  }
+  .promoCard_img {
+    width: 90%;
+  }
+  .promoCard_TextDivHeading {
+    font-size: 4rem;
+    width: 98%;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .promoCard_TextDivTitle {
+    font-size: 2.5rem;
+    width: 98%;
+    text-align: center;
+  }
+  .promoCard_TextDivButton {
+    font-size: 2rem;
+    font-weight: 500;
+    width: 98%;
+    text-align: center;
+  }
+  .promoCard_ratingDivRating {
+    font-size: 5rem;
+    text-align: center;
+    margin-top: -12rem;
+  }
+  .promoCard_ratingDivView {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .promoCard_ratingDivLike {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .promoCard_ratingDivLike {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+}

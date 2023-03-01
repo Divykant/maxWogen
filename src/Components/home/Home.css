@@ -1,0 +1,9 @@
+.home {
+  background-color: black;
+}
+.strokeHeading {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #eaeaea;
+  stroke-width: 1px;
+  stroke: #eaeaea;
+}

@@ -1,0 +1,194 @@
+.contact {
+  margin-top: 15rem;
+  display: flex;
+}
+.contact_leftDiv {
+  margin-bottom: 5rem;
+  margin-left: 2rem;
+  width: 50%;
+}
+.contact_leftDivTitle {
+  text-align: left;
+  color: gray;
+  font-size: 2rem;
+}
+.contact_leftDivHeading {
+  margin-top: 2rem;
+  font-size: 5rem;
+  text-align: left;
+}
+.contact_leftDivPara {
+  color: gray;
+  margin-top: 2rem;
+  font-size: 2rem;
+  margin-right: 5rem;
+  text-align: left;
+}
+.contact_leftDivCards {
+  display: flex;
+}
+.contact_leftDivCardsLayer {
+  width: 100%;
+  margin-top: 2rem;
+}
+.contact_leftDivCardsLayerSec {
+  display: flex;
+  padding: 1rem;
+  margin: 0.3rem;
+}
+.contact_leftDivCardsLayerSecImg {
+  width: 20%;
+  border: 0.1rem solid gray;
+  background-color: rgb(95, 95, 95);
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+.contact_leftDivCardsLayerSecPara {
+  font-size: 1.5rem;
+  color: gray;
+  width: 100%;
+  text-align: left;
+  margin-left: 1.5rem;
+}
+.contact_leftDivCardsLayerSecHeading {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #fff;
+}
+.contact_rightDiv {
+  width: 45%;
+  border-radius: 2rem;
+  margin-bottom: 5rem;
+  background-color: rgb(44, 44, 44);
+}
+.contact_rightDivHeading {
+  text-align: left;
+  color: gray;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  font-size: 3rem;
+}
+.contact_rightDivInput {
+  display: block;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 0.2rem solid gray;
+  background-color: black;
+  margin-top: 2rem;
+  width: 80%;
+  margin-left: 2rem;
+}
+.contact_rightDivSubmitButton {
+  width: 90%;
+  /* margin-left: 5rem;
+  margin-right: 5rem; */
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: gray;
+  float: left;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  border: 0.2rem solid gray;
+  margin-bottom: 2rem;
+}
+.contact_rightDivSubmitButton:hover {
+  background-color: black;
+}
+.contact_rightDivCheckPara {
+  font-size: 2rem;
+  text-align: left;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  color: gray;
+}
+@media (min-width: 781px) and (max-width: 1279px) {
+  .contact_leftDivTitle {
+    font-size: 1.8rem;
+  }
+  .contact_leftDivHeading {
+    font-size: 3.5rem;
+  }
+  .contact_leftDivPara {
+    font-size: 1.5rem;
+  }
+  .contact_leftDivCardsLayerSecHeading {
+    font-size: 1.5rem;
+  }
+  .contact_leftDivCardsLayerSecPara {
+    font-size: 1rem;
+  }
+  .contact_rightDivHeading {
+    font-size: 1.8rem;
+  }
+  .contact_rightDivCheckPara {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 481px) and (max-width: 780px) {
+  .contact_leftDivTitle {
+    font-size: 1.8rem;
+  }
+  .contact_rightDiv {
+    width: 90%;
+    margin-left: 2rem;
+  }
+  .contact_leftDiv {
+    width: 100%;
+  }
+  .contact {
+    flex-direction: column;
+  }
+  .contact_leftDivHeading {
+    font-size: 3.5rem;
+  }
+  .contact_leftDivPara {
+    font-size: 1.5rem;
+  }
+  .contact_leftDivCardsLayerSecHeading {
+    font-size: 1.5rem;
+  }
+  .contact_leftDivCardsLayerSecPara {
+    font-size: 1rem;
+  }
+  .contact_rightDivHeading {
+    font-size: 1.8rem;
+  }
+  .contact_rightDivCheckPara {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact_leftDivTitle {
+    font-size: 1.8rem;
+  }
+  .contact_rightDiv {
+    width: 90%;
+    margin-left: 2rem;
+  }
+  .contact_leftDiv {
+    width: 100%;
+  }
+  .contact {
+    flex-direction: column;
+  }
+  .contact_leftDivHeading {
+    font-size: 3.5rem;
+  }
+  .contact_leftDivPara {
+    font-size: 1.5rem;
+  }
+  .contact_leftDivCardsLayerSecHeading {
+    font-size: 1.5rem;
+  }
+  .contact_leftDivCardsLayerSecPara {
+    font-size: 1rem;
+  }
+  .contact_rightDivHeading {
+    font-size: 1.8rem;
+  }
+  .contact_rightDivCheckPara {
+    font-size: 1.5rem;
+  }
+}

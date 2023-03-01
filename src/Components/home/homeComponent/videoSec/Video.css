@@ -1,0 +1,249 @@
+.video {
+  margin-top: 8rem;
+  background-color: black;
+  display: flex;
+}
+.video_rightDiv {
+  width: 50%;
+}
+.video_rightDivTitle {
+  text-align: left;
+  font-size: 2rem;
+  margin-left: 3rem;
+  font-family: "Roboto Mono", monospace;
+  color: rgb(241, 241, 241);
+}
+.video_rightDivMainHeading {
+  text-align: left;
+  font-size: 8rem;
+  font-family: Roboto, sans-serif;
+  margin-left: 2rem;
+}
+.video_rightDivContent {
+  margin-top: 3rem;
+  display: flex;
+}
+.video_rightDivContentTextDiv {
+  width: 50%;
+}
+.video_rightDivContentVidDiv {
+  width: 50%;
+}
+.video_rightDivContentVid {
+  width: 80%;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  border-radius: 2rem;
+  float: left;
+}
+.video_rightDivContentTextTitle {
+  background-color: gray;
+  width: 35%;
+  font-size: 2.5rem;
+  padding: 1rem;
+  color: #fff;
+  margin-left: 1rem;
+  text-transform: uppercase;
+  margin-top: 2rem;
+  border-radius: 1rem;
+}
+.video_rightDivContentTextHeading {
+  color: #fff;
+  text-align: left;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  font-size: 2.5rem;
+}
+.video_rightDivContentTextPara {
+  text-align: left;
+  color: #fff;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.video_leftDiv {
+  width: 47%;
+  float: right;
+}
+.vid_leftDivSpan {
+  text-align: left;
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  color: gray;
+}
+.vid_leftDivHeading {
+  text-align: left;
+  margin-top: 3rem;
+  margin-left: 2rem;
+  font-size: 5.5rem;
+  color: #fff;
+}
+.vid_leftDivLink {
+  text-decoration: none;
+  margin-top: 3rem;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 550;
+  float: left;
+  margin-left: 2rem;
+}
+.video_leftDivVid {
+  border-radius: 3rem;
+  width: 100%;
+}
+
+@media (min-width: 781px) and (max-width: 1279px) {
+  .video_rightDivTitle {
+    font-size: 1.5rem;
+  }
+  .video_rightDivMainHeading {
+    font-size: 3rem;
+  }
+  .video_rightDivContentTextTitle {
+    font-size: 1.5rem;
+  }
+  .video_rightDivContentTextHeading {
+    font-size: 2rem;
+  }
+  .video_rightDivContentTextPara {
+    font-size: 1rem;
+  }
+  .vid_leftDivSpan {
+    font-size: 1.3rem;
+  }
+  .vid_leftDivHeading {
+    font-size: 3.5rem;
+  }
+  .vid_leftDivSpan {
+    font-size: 1.3rem;
+  }
+  .vid_leftDivLink {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 780px) {
+  .video {
+    flex-direction: column;
+  }
+  .video_leftDiv {
+    margin-top: 5rem;
+    width: 100%;
+  }
+  .video_rightDiv {
+    width: 100%;
+  }
+  .video_rightDivTitle {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .video_rightDivMainHeading {
+    text-align: center;
+    font-size: 3rem;
+  }
+  .video_rightDivContent {
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+  }
+  .video_rightDivContentVid {
+    width: 100%;
+  }
+  .video_rightDivContentVidDiv {
+    width: 80%;
+  }
+  .video_rightDivContentTextDiv {
+    width: 80%;
+  }
+  .video_rightDivContentTextTitle {
+    text-align: center;
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  .video_rightDivContentTextHeading {
+    font-size: 2rem;
+    text-align: center;
+    width: 100%;
+  }
+  .video_rightDivContentTextPara {
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+  .vid_leftDivSpan {
+    font-size: 1.3rem;
+  }
+  .vid_leftDivHeading {
+    font-size: 3.5rem;
+  }
+  .vid_leftDivSpan {
+    font-size: 1.3rem;
+  }
+  .vid_leftDivLink {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .video {
+    flex-direction: column;
+  }
+  .video_leftDiv {
+    margin-top: 5rem;
+    width: 100%;
+  }
+  .video_rightDiv {
+    width: 100%;
+  }
+  .video_rightDivTitle {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .video_rightDivMainHeading {
+    text-align: center;
+    font-size: 3rem;
+  }
+  .video_rightDivContent {
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+  }
+  .video_rightDivContentVid {
+    width: 100%;
+  }
+  .video_rightDivContentVidDiv {
+    width: 80%;
+  }
+  .video_rightDivContentTextDiv {
+    width: 80%;
+  }
+  .video_rightDivContentTextTitle {
+    text-align: center;
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  .video_rightDivContentTextHeading {
+    font-size: 2rem;
+    text-align: center;
+    width: 100%;
+  }
+  .video_rightDivContentTextPara {
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+  .vid_leftDivSpan {
+    font-size: 1.3rem;
+  }
+  .vid_leftDivHeading {
+    font-size: 3.5rem;
+  }
+  .vid_leftDivSpan {
+    font-size: 1.3rem;
+  }
+  .vid_leftDivLink {
+    font-size: 1.5rem;
+  }
+}

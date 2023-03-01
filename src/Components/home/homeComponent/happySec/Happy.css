@@ -1,0 +1,211 @@
+.happy_topDiv {
+  font-family: "Roboto Mono", monospace;
+  margin-top: 15rem;
+}
+.happy_topDivTitle {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.happy_topDivHeading {
+  font-family: roboto, sans-serif;
+  text-transform: uppercase;
+  font-size: 6rem;
+}
+hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.happy_layerDiv {
+  margin-top: 5rem;
+  display: flex;
+}
+.happy_layerDivCard {
+  display: grid;
+  width: 74%;
+  grid-template-columns: auto auto auto;
+  margin: 1rem;
+}
+.happy_layerDivCardImg {
+  width: 95%;
+  border-radius: 1rem;
+}
+.happy_layerDivCardImg:hover {
+  opacity: 0.5;
+}
+.happy_layerDivCardText {
+  color: rgb(145, 145, 145);
+  width: 25%;
+  background-color: rgb(41, 41, 41);
+  margin: 1rem;
+  border: 0.3rem solid gray;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.happy_layerDivCardTextSpan {
+  font-size: 5rem;
+  float: left;
+}
+.happy_layerDivCardTextPara {
+  font-size: 1.5rem;
+  margin-top: 4rem;
+  text-align: left;
+}
+.happy_layerDivCardTextLink {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #fff;
+  width: 35%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  float: right;
+  border-radius: 2rem;
+  background-color: rgb(73, 73, 255);
+}
+.happy_layerDivCardTextLink:hover {
+  background-color: blue;
+}
+.happy_layerDivCardText2 {
+  color: gray;
+  width: 25%;
+  margin: 1rem;
+}
+.happy_layerDivCardTextSpan2 {
+  color: #fff;
+  font-size: 4rem;
+  float: left;
+}
+.happy_layerDivCardTextHeading {
+  font-size: 1.5rem;
+  text-align: left;
+  margin-top: 3rem;
+}
+.happy_layerDivCardTextPara2 {
+  font-size: 1.5rem;
+  text-align: left;
+  margin-top: 1rem;
+}
+@media (min-width: 781px) and (max-width: 1279px) {
+  .happy_topDivTitle {
+    font-size: 1.5rem;
+  }
+  .happy_layerDivCardImg {
+    margin-bottom: 2rem;
+  }
+  .happy {
+    flex-direction: column;
+  }
+  .happy_topDivHeading {
+    font-size: 3.5rem;
+  }
+  /* .happy_layerDivCard {
+    display: grid;
+    grid-template-columns: auto;
+  } */
+  .happy_layerDiv {
+    flex-direction: column;
+  }
+  .happy_layerDivCard {
+    width: 98%;
+  }
+  .happy_layerDivCardText2 {
+    width: 98%;
+  }
+  .happy_layerDivCardText {
+    width: 96%;
+  }
+  .happy_layerDivCardText {
+    font-size: 1rem;
+    height: 25vw;
+  }
+  .happy_layerDivCardTextPara {
+    font-size: 1rem;
+  }
+  .happy_layerDivCardTextLink {
+    font-size: 1.2rem;
+  }
+  .happy_layerDivCardTextHeading {
+    font-size: 1.3rem;
+  }
+  .happy_layerDivCardTextPara2 {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 780px) {
+  .happy_topDivTitle {
+    font-size: 1.5rem;
+  }
+  .happy_topDivHeading {
+    font-size: 3.5rem;
+  }
+  .happy_layerDivCard {
+    width: 90%;
+    margin-left: 2rem;
+  }
+  .happy_layerDivCardText {
+    width: 88%;
+  }
+  .happy_layerDiv {
+    flex-direction: column;
+  }
+  .happy_layerDivCardText {
+    font-size: 1rem;
+    margin-left: 2rem;
+  }
+  .happy_layerDivCardText2 {
+    width: 90%;
+    font-size: 1.5rem;
+  }
+  .happy_layerDivCardTextPara2 {
+    font-size: 1.5rem;
+  }
+  .happy_layerDivCardTextPara {
+    font-size: 1.5rem;
+  }
+  .happy_layerDivCardTextLink {
+    font-size: 1.2rem;
+  }
+  .happy_layerDivCardTextHeading {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 479px) {
+  .happy_topDivTitle {
+    font-size: 1.5rem;
+  }
+  .happy_topDivHeading {
+    font-size: 3.5rem;
+  }
+  .happy_layerDivCard {
+    width: 90%;
+    margin-left: 2rem;
+  }
+  .happy_layerDivCardText {
+    width: 88%;
+  }
+  .happy_layerDiv {
+    flex-direction: column;
+  }
+  .happy_layerDivCardText {
+    font-size: 1rem;
+    margin-left: 2rem;
+  }
+  .happy_layerDivCardText2 {
+    width: 90%;
+    font-size: 1.5rem;
+  }
+  .happy_layerDivCardTextPara2 {
+    font-size: 1.5rem;
+  }
+  .happy_layerDivCardTextPara {
+    font-size: 1.5rem;
+  }
+  .happy_layerDivCardTextLink {
+    font-size: 1.2rem;
+  }
+  .happy_layerDivCardTextHeading {
+    font-size: 1.3rem;
+  }
+}

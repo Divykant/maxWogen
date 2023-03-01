@@ -1,0 +1,36 @@
+.skill {
+  margin-top: 10rem;
+  display: flex;
+}
+.skill_leftDiv {
+  text-align: left;
+  width: 50%;
+  margin-left: 2rem;
+}
+.skill_leftDivTitle {
+  color: gray;
+  font-size: 2.5rem;
+}
+.skill_leftDivHeading {
+  font-size: 7rem;
+  text-transform: uppercase;
+  margin-top: 2rem;
+}
+.skill_leftDivPara {
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  width: 70%;
+  color: rgb(145, 145, 145);
+}
+.skill_rightDiv {
+  width: 50%;
+}
+.skill_rightDiv {
+  border-radius: 50% 0 0 50%;
+  width: 50%;
+
+  background: url(https://hrkit.rometheme.pro/max/wp-content/uploads/sites/47/2022/06/background-1-5.jpg);
+}
+.skill_rightImg {
+  width: 60%;
+}

@@ -1,0 +1,63 @@
+.year {
+  /* display: flex; */
+  margin-top: 12rem;
+}
+.year_cardLayer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.year_card {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: rgb(39, 39, 39);
+  border: 0.3rem solid rgb(66, 66, 66);
+  border-radius: 1rem;
+}
+.year_card:hover {
+  background-color: rgb(66, 66, 66);
+}
+.year_cardLinks {
+  color: #fff;
+  font-size: 1.5rem;
+}
+.year_cardYr {
+  border-radius: 2rem;
+  margin-top: 3rem;
+  height: 8vh;
+  padding-top: 0.8 rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  background-color: rgb(85, 85, 85);
+  color: #fff;
+  font-size: 3rem;
+}
+.year_cardPara {
+  font-size: 1.5rem;
+  padding: 2rem;
+  color: gray;
+}
+.year_cardTitle {
+  color: #fff;
+  margin-top: 1.5rem;
+  font-size: 2.5rem;
+}
+@media (min-width: 781px) and (max-width: 1279px) {
+  .year_cardLayer {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 780px) {
+  .year_cardLayer {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .year_cardLayer {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}

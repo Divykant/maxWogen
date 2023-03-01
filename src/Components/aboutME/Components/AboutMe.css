@@ -1,0 +1,60 @@
+.aboutMe_topDiv {
+  align-items: center;
+  justify-content: center;
+  background: url(https://hrkit.rometheme.pro/max/wp-content/uploads/sites/47/2022/06/cover-page-6.jpg);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.aboutMe_topDivTitle {
+  width: 100%;
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: 600;
+  padding: 1rem;
+  text-transform: uppercase;
+}
+.aboutMe_topDivHeading {
+  font-size: 6rem;
+  margin-top: 4rem;
+  text-transform: uppercase;
+}
+.aboutMe_topDivHeadingSpan {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 14rem;
+}
+@media (min-width: 781px) and (max-width: 1279px) {
+  .aboutMe_topDivTitle {
+    font-size: 2.5rem;
+  }
+  .aboutMe_topDivHeading {
+    font-size: 3.5rem;
+  }
+  .aboutMe_topDivHeadingSpan {
+    font-size: 9rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 780px) {
+  .aboutMe_topDivTitle {
+    font-size: 2.5rem;
+  }
+  .aboutMe_topDivHeading {
+    font-size: 3.5rem;
+  }
+  .aboutMe_topDivHeadingSpan {
+    font-size: 9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .aboutMe_topDivTitle {
+    font-size: 2rem;
+  }
+  .aboutMe_topDivHeading {
+    font-size: 3.5rem;
+  }
+  .aboutMe_topDivHeadingSpan {
+    font-size: 9rem;
+  }
+}

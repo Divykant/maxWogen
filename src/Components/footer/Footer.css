@@ -1,0 +1,151 @@
+.footer_topDiv {
+  height: 70vh;
+  background-size: cover;
+  padding-top: 15rem;
+  background: url(https://hrkit.rometheme.pro/max/wp-content/uploads/sites/47/2022/06/cta-1.png);
+}
+.footer_topDivTitle {
+  color: #fff;
+  padding: 2rem;
+  width: 100%;
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+.footer_topDivHeading {
+  color: #fff;
+  font-size: 6rem;
+  margin-top: 4rem;
+}
+
+.footer_topDivLinksList {
+  display: inline-block;
+  width: 8%;
+  margin-top: 2rem;
+}
+.footer_topDivLinksListTag {
+  text-decoration: none;
+  font-size: 3rem;
+  padding: 0.5rem;
+  color: #fff;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: all 0.2 ease-in-out;
+}
+.footer_topDivLinksListTag:hover {
+  color: rgb(145, 145, 145);
+  transform: rotate(20deg);
+}
+.footer_bottomDiv {
+  margin-left: 2rem;
+  display: flex;
+  margin-right: 2rem;
+}
+.footer_bottomDivTitle {
+  padding: 1rem;
+  border: 0.2rem solid gray;
+  border-radius: 1rem;
+  color: #fff;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.footer_bottomDivTitleSpan {
+  background-color: rgb(175, 175, 175);
+  color: black;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  margin: 0.5rem;
+}
+.footer_bottomDivCopy {
+  color: gray;
+  width: 70%;
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+}
+.footer_topDivLinks {
+  margin-top: 6rem;
+}
+.footer_line {
+  width: 95%;
+}
+.footer_bottomDivLinks {
+  text-align: right;
+  margin-left: 8rem;
+  font-size: 1.5rem;
+}
+.footer_bottomDivLinks a {
+  color: gray;
+  margin-top: 0.5rem;
+  text-decoration: none;
+}
+.footer_bottomDivLinks a:hover {
+  color: #fff;
+}
+@media (min-width: 781px) and (max-width: 1279px) {
+  .footer_topDivTitle {
+    font-size: 2rem;
+  }
+  .footer_topDivHeading {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .footer_topDivLinksListTag {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 481px) and (max-width: 780px) {
+  .footer_topDivTitle {
+    font-size: 2rem;
+  }
+  .footer_bottomDiv {
+    flex-direction: column;
+  }
+  .footer_topDivHeading {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .footer_topDivLinksListTag {
+    font-size: 2rem;
+  }
+  .footer_bottomDivTitle {
+    font-size: 1.3rem;
+    border: none;
+  }
+  .footer_bottomDivCopy {
+    width: 98%;
+    font-size: 1rem;
+  }
+  .footer_bottomDivLinks {
+    display: flex;
+    width: 98%;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer_topDivTitle {
+    font-size: 2rem;
+  }
+  .footer_bottomDiv {
+    flex-direction: column;
+  }
+  .footer_topDivHeading {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .footer_topDivLinksListTag {
+    font-size: 2rem;
+  }
+  .footer_bottomDivTitle {
+    font-size: 1.3rem;
+    border: none;
+  }
+  .footer_bottomDivCopy {
+    width: 98%;
+    font-size: 1rem;
+  }
+  .footer_bottomDivLinks {
+    display: flex;
+    width: 98%;
+    font-size: 1rem;
+  }
+}

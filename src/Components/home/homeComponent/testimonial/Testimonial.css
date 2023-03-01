@@ -1,0 +1,132 @@
+.testimonial_topDiv {
+  margin-top: 15rem;
+}
+.testimonial_topDivTitle {
+  font-size: 3rem;
+  font-weight: 600;
+  color: rgb(197, 197, 197);
+}
+.testimonial_topDivHeading {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 6rem;
+}
+.testimonial_layerDiv {
+  margin-top: 5rem;
+  display: flex;
+}
+.testimonial_layerDivCard {
+  margin: 0.5rem;
+}
+.testimonial_layerDivCardPara {
+  font-size: 2rem;
+  color: rgb(197, 197, 197);
+  padding: 1rem;
+  border-radius: 2rem;
+  border: 0.2rem solid gray;
+  width: 80%;
+  margin: 2rem;
+}
+.testimonial_layerDivCardDetails {
+  display: flex;
+  color: #fff;
+}
+.testimonial_layerDivCardDetailsImg {
+  width: 15%;
+  border-radius: 50%;
+  margin-left: 2rem;
+}
+.testimonial_layerDivCardDetailsPara {
+  margin-left: 2rem;
+  text-align: left;
+  color: gray;
+  font-size: 1.5rem;
+}
+.testimonial_layerDivCardDetailsParaSpan {
+  font-weight: 500;
+  color: #fff;
+  font-size: 2rem;
+}
+@media (min-width: 781px) and (max-width: 1279px) {
+  .testimonial_topDivTitle {
+    font-size: 1.5rem;
+  }
+  .testimonial_topDivHeading {
+    font-size: 3rem;
+  }
+  .testimonial_layerDivCardDetailsPara {
+    font-size: 1rem;
+  }
+  .testimonial_layerDivCardPara {
+    font-size: 1.5rem;
+  }
+  .testimonial_layerDivCardDetailsParaSpan {
+    font-size: 1.5rem;
+  }
+  .testimonial_layerDivCard {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 480px) and (max-width: 780px) {
+  .testimonial_layerDiv {
+    flex-direction: column;
+  }
+  .testimonial_layerDivCardDetails {
+    align-items: center;
+    justify-content: center;
+  }
+  .testimonial_layerDivCardPara {
+    width: 70%;
+    margin-left: 6rem;
+  }
+  .testimonial_topDivTitle {
+    font-size: 1.5rem;
+  }
+  .testimonial_topDivHeading {
+    font-size: 3rem;
+  }
+  .testimonial_layerDivCardDetailsPara {
+    font-size: 1rem;
+  }
+  .testimonial_layerDivCardPara {
+    font-size: 1.5rem;
+  }
+  .testimonial_layerDivCardDetailsParaSpan {
+    font-size: 1.5rem;
+  }
+  .testimonial_layerDivCard {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 479px) {
+  .testimonial_layerDiv {
+    flex-direction: column;
+  }
+  .testimonial_layerDivCardDetails {
+    align-items: center;
+    justify-content: center;
+  }
+  .testimonial_layerDivCardPara {
+    width: 70%;
+    margin-left: 6rem;
+  }
+  .testimonial_topDivTitle {
+    font-size: 1.5rem;
+  }
+  .testimonial_topDivHeading {
+    font-size: 3rem;
+  }
+  .testimonial_layerDivCardDetailsPara {
+    font-size: 1rem;
+  }
+  .testimonial_layerDivCardPara {
+    font-size: 1.5rem;
+  }
+  .testimonial_layerDivCardDetailsParaSpan {
+    font-size: 1.5rem;
+  }
+  .testimonial_layerDivCard {
+    font-size: 1.5rem;
+  }
+}

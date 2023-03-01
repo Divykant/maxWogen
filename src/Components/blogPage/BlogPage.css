@@ -1,0 +1,188 @@
+.blogPage {
+}
+.blogPageDiv {
+  margin: 10rem;
+}
+.blogPage_img {
+  width: 100%;
+  border-radius: 4rem;
+}
+.blogPag_text {
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  font-weight: 200;
+  color: rgb(82, 82, 82);
+}
+.blogPage_para {
+  text-align: left;
+  padding: 1rem;
+  letter-spacing: 0.1rem;
+  color: gray;
+  font-weight: 300;
+}
+.blogPage_heading {
+  text-align: left;
+  color: rgb(168, 168, 168);
+  font-size: 4rem;
+  font-weight: 400;
+  padding: 1rem;
+  text-transform: uppercase;
+}
+.blogPage_title {
+  text-align: left;
+  color: rgb(168, 168, 168);
+  font-weight: 300;
+  padding: 1rem;
+}
+.blogPage_spanText {
+  /* color: aquamarine; */
+  float: left;
+  margin-left: 6rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.blogPage_Imglayer {
+  display: flex;
+  margin-top: 4rem;
+}
+.blogPage_ImglayerCard {
+  width: 31.5%;
+  margin: 1rem;
+}
+.blogPage_shareDiv {
+  display: flex;
+}
+.blogPage_shareDivHeading {
+  color: #fff;
+  font-size: 2rem;
+  width: 25%;
+}
+.blogPage_shareDivButtonDiv {
+  margin-left: 53rem;
+}
+.blogPage_shareDivButton {
+  font-size: 1.5rem;
+  padding: 1rem;
+  color: #fff;
+  border: none;
+  margin: 0.5rem;
+  background-color: rgb(49, 49, 49);
+}
+.blogPage_replyDivTag {
+  color: #fff;
+  font-size: 2rem;
+  margin-top: 5rem;
+  text-align: left;
+  font-weight: 300;
+}
+.blogPage_replyDivTagInput {
+  width: 100%;
+  border: 0.1rem solid #fff;
+  background: none;
+  padding: 1rem;
+}
+.blogPage_replyDivButtoon {
+  padding: 1.5rem;
+  margin-top: 2rem;
+  float: left;
+  margin-left: 2rem;
+  border: 0.1rem solid #fff;
+  border-radius: 1rem;
+  color: #fff;
+  background: none;
+  text-transform: capitalize;
+  font-size: 1.8rem;
+}
+@media (min-width: 781px) and (max-width: 1279px) {
+  .blogPage_para {
+    font-size: 1.7rem;
+  }
+  .blogPage_title {
+    font-size: 2rem;
+  }
+  .blogPage_heading {
+    font-size: 4rem;
+    background-color: blue;
+  }
+  .blogPage_shareDiv {
+    flex-direction: column;
+  }
+  .blogPage_shareDivButtonDiv {
+    margin-left: 0rem;
+  }
+  .blogPage_shareDivHeading {
+    width: 100%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 780px) {
+  .blogPage_para {
+    font-size: 1.4rem;
+  }
+  .blogPage_title {
+    font-size: 1.7rem;
+  }
+  .blogPage_Imglayer {
+    flex-direction: column;
+  }
+  .blogPage_spanText {
+    font-size: 1.32rem;
+  }
+  .blogPage_ImglayerCard {
+    width: 90%;
+  }
+  .blogPage_shareDivHeading {
+    font-size: 1.5rem;
+  }
+  .blogPage_shareDivButton {
+    font-size: 1.2rem;
+  }
+  .blogPage_heading {
+    font-size: 3rem;
+  }
+  .blogPage_shareDiv {
+    flex-direction: column;
+  }
+  .blogPage_shareDivButtonDiv {
+    margin-left: 0rem;
+  }
+  .blogPage_shareDivHeading {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .blogPage_para {
+    font-size: 1.4rem;
+  }
+  .blogPage_title {
+    font-size: 1.7rem;
+  }
+  .blogPage_Imglayer {
+    flex-direction: column;
+  }
+  .blogPage_spanText {
+    font-size: 1.32rem;
+  }
+  .blogPage_ImglayerCard {
+    width: 90%;
+  }
+  .blogPage_shareDivHeading {
+    font-size: 1.5rem;
+  }
+  .blogPage_shareDivButton {
+    font-size: 1.2rem;
+  }
+  .blogPage_heading {
+    font-size: 3rem;
+  }
+  .blogPage_shareDiv {
+    flex-direction: column;
+  }
+  .blogPage_shareDivButtonDiv {
+    margin-left: 0rem;
+  }
+  .blogPage_shareDivHeading {
+    width: 100%;
+  }
+}

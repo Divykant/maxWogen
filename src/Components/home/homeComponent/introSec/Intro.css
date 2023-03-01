@@ -1,0 +1,254 @@
+.intro {
+  padding-top: 15rem;
+  background-color: black;
+  display: flex;
+  margin-top: 5rem;
+}
+.intro_leftDiv {
+  border-radius: 0 50% 50% 0;
+  background: url(https://hrkit.rometheme.pro/max/wp-content/uploads/sites/47/2022/06/background-1-5.jpg);
+  width: 58%;
+  margin-right: 2rem;
+  height: 110vh;
+  /* background-position: center center; */
+  background-size: cover;
+}
+.intro_leftDivImg {
+  margin-top: 12rem;
+  margin-left: 6rem;
+  width: 80%;
+  transition: all 0.3s ease-in-out;
+}
+.intro_leftDivImg:hover {
+  transform: rotate(2deg);
+}
+.intro_rightDiv {
+  width: 50%;
+  /* background-color: yellowgreen; */
+}
+.intro_rightDivTitle {
+  margin-top: 15rem;
+  font-size: 3rem;
+  font-family: "Roboto Mono", monospace;
+  text-align: left;
+  color: rgb(197, 197, 197);
+}
+.intro_rightDivHeading {
+  margin-top: 3rem;
+  font-family: Roboto, sans-serif;
+  text-align: left;
+  font-size: 10rem;
+  text-transform: uppercase;
+}
+.intro_rightDivSubHead {
+  text-align: left;
+  font-size: 3rem;
+  margin-top: 5rem;
+  margin-left: 1rem;
+  text-transform: uppercase;
+  border-radius: 2rem;
+  padding: 2rem;
+  background-color: rgb(48, 48, 48);
+  color: #fff;
+  width: 52%;
+}
+.intro_rightDivPara {
+  margin-top: 4rem;
+  text-align: left;
+  margin-left: 1rem;
+  color: rgb(124, 124, 124);
+  width: 80%;
+  font-size: 2rem;
+}
+.intro_rightOriginLeft {
+  display: flex;
+  margin-top: 5rem;
+  margin-left: 1rem;
+  width: 90%;
+}
+.intro_rightOriginLeftImg {
+  width: 20%;
+}
+.intro_rightOriginRightHeading {
+  font-size: 3rem;
+  margin-left: 2rem;
+  width: 150%;
+  color: rgb(124, 124, 124);
+  text-align: left;
+}
+.intro_rightOriginRightPara {
+  font-size: 2rem;
+  text-align: left;
+  margin-left: 2rem;
+  color: rgb(124, 124, 124);
+}
+.intro_rightButton {
+  width: 30%;
+  float: left;
+  margin-left: 2rem;
+  margin-top: 4rem;
+  height: 8vh;
+  border-radius: 1rem;
+  border: 0.2rem solid #fff;
+  background: none;
+  color: #fff;
+  font-size: 2rem;
+}
+.intro_rightButton:hover {
+  background-color: antiquewhite;
+  color: black;
+}
+.intro_rightPara {
+  margin-top: 12rem;
+  text-align: left;
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: rgb(124, 124, 124);
+}
+@media (min-width: 781px) and (max-width: 1279px) {
+  .intro_rightDivTitle {
+    font-size: 1.7rem;
+  }
+  .intro_leftDiv {
+    margin-right: 2rem;
+  }
+  .intro_rightDivHeading {
+    font-size: 4rem;
+  }
+  .intro_rightDivSubHead {
+    font-size: 2rem;
+  }
+  .intro_rightDivPara {
+    font-size: 1.5rem;
+  }
+  .intro_rightOriginRightHeading {
+    font-size: 2rem;
+  }
+  .intro_rightOriginRightPara {
+    font-size: 1.5rem;
+  }
+  .intro_rightButton {
+    font-size: 1.5rem;
+  }
+  .intro_rightPara {
+    font-size: 1.3rem;
+  }
+}
+@media (min-width: 481px) and (max-width: 780px) {
+  .intro {
+    flex-direction: column;
+  }
+  .intro_leftDiv {
+    width: 100%;
+  }
+  .intro_leftDivImg {
+    width: 90%;
+  }
+  .intro_rightDiv {
+    width: 100%;
+  }
+  .intro_rightDivTitle {
+    text-align: center;
+    font-size: 1.7rem;
+  }
+  .intro_leftDiv {
+    text-align: center;
+    margin-right: 2rem;
+  }
+  .intro_rightDivHeading {
+    text-align: center;
+    font-size: 4rem;
+  }
+  .intro_rightDivSubHead {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .intro_rightDivPara {
+    margin-left: 2rem;
+    width: 90%;
+    font-size: 1.5rem;
+  }
+  .intro_rightOriginRightHeading {
+    font-size: 2rem;
+  }
+  .intro_rightOriginRightPara {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .intro_rightButton {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .intro_rightButton {
+    float: none;
+  }
+  .intro_rightOriginLeft {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .intro_rightPara {
+    text-align: center;
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .intro {
+    flex-direction: column;
+  }
+  .intro_leftDiv {
+    width: 100%;
+  }
+  .intro_leftDivImg {
+    width: 90%;
+  }
+  .intro_rightDiv {
+    width: 100%;
+  }
+  .intro_rightDivTitle {
+    text-align: center;
+    font-size: 1.7rem;
+  }
+  .intro_leftDiv {
+    text-align: center;
+    margin-right: 2rem;
+  }
+  .intro_rightDivHeading {
+    text-align: center;
+    font-size: 4rem;
+  }
+  .intro_rightDivSubHead {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .intro_rightDivPara {
+    margin-left: 2rem;
+    width: 90%;
+    font-size: 1.5rem;
+  }
+  .intro_rightOriginRightHeading {
+    font-size: 2rem;
+  }
+  .intro_rightOriginRightPara {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .intro_rightButton {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .intro_rightButton {
+    float: none;
+  }
+  .intro_rightOriginLeft {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .intro_rightPara {
+    text-align: center;
+    font-size: 1.3rem;
+  }
+}

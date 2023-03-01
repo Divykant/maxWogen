@@ -1,0 +1,134 @@
+.team_topHeading {
+  margin-top: 15rem;
+}
+.team_topHeadingTitle {
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: "Roboto Mono", monospace;
+  color: rgb(197, 197, 197);
+}
+.team_topHeadingMain {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 6rem;
+}
+.team_layerDiv {
+  margin-top: 8rem;
+  display: flex;
+}
+.team_layerDivCard {
+  margin-top: 5rem;
+  margin-left: 2rem;
+}
+.team_layerDivCardImg {
+  width: 80%;
+  border: 0.2rem solid gray;
+  border-radius: 2rem;
+}
+.team_layerDivCardName {
+  font-size: 2rem;
+  margin-top: 2rem;
+  color: #fff;
+}
+.team_layerDivCardPara {
+  font-size: 2rem;
+  color: gray;
+}
+.team_layerDivCardLinksList {
+  display: inline-block;
+  margin: 1rem;
+  width: 5%;
+  margin-top: 2rem;
+}
+.team_layerDivCardLinksListTag {
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  color: #fff;
+  border-radius: 0.5rem;
+  font-weight: 500;
+}
+.team_layerDivCardLinksListTag:hover {
+  background-color: rgb(36, 36, 36);
+}
+.team_layerDivCardNew {
+  margin-top: 5rem;
+  width: 45%;
+  margin-right: 4rem;
+  border: 0.2rem solid gray;
+  border-radius: 2rem;
+  height: fit-content;
+  padding-bottom: 8rem;
+  background-color: rgb(56, 56, 56);
+}
+.team_layerDivCardNewImg {
+  width: 50%;
+  margin-top: 5rem;
+}
+@media (min-width: 781px) and (max-width: 1279px) {
+  .team_topHeadingTitle {
+    font-size: 1.5rem;
+  }
+  .team_topHeadingMain {
+    font-size: 4rem;
+  }
+  .team_layerDivCardPara {
+    font-size: 1.3rem;
+  }
+  .team_layerDivCardName {
+    font-size: 1.5rem;
+  }
+  .team_layerDivCardLinksListTag {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 780px) {
+  .team_layerDiv {
+    flex-direction: column;
+  }
+  .team_topHeadingTitle {
+    font-size: 2rem;
+  }
+  .team_topHeadingMain {
+    font-size: 4rem;
+  }
+  .team_layerDivCardPara {
+    font-size: 2rem;
+  }
+  .team_layerDivCardName {
+    font-size: 3rem;
+  }
+  .team_layerDivCardNew {
+    width: 90%;
+    margin-left: 2rem;
+  }
+  .team_layerDivCardLinksListTag {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .team_layerDiv {
+    flex-direction: column;
+  }
+  .team_topHeadingTitle {
+    font-size: 2rem;
+  }
+  .team_topHeadingMain {
+    font-size: 4rem;
+  }
+  .team_layerDivCardPara {
+    font-size: 2rem;
+  }
+  .team_layerDivCardName {
+    font-size: 3rem;
+  }
+  .team_layerDivCardNew {
+    width: 90%;
+    margin-left: 2rem;
+  }
+  .team_layerDivCardLinksListTag {
+    font-size: 1.5rem;
+  }
+}

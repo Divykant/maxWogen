@@ -1,0 +1,140 @@
+.socialAcc {
+  margin-top: 15rem;
+  display: flex;
+}
+.socialAcc_leftDiv {
+  width: 50%;
+}
+.socialAcc_leftDivImg {
+  width: 90%;
+  border-radius: 3rem;
+  margin-top: 8rem;
+}
+.socialAcc_rightDiv {
+  text-align: left;
+  width: 50%;
+}
+.socialAcc_rightDivTitle {
+  letter-spacing: 0.5rem;
+  font-size: 3rem;
+  font-weight: 400;
+  color: rgb(197, 197, 197);
+  text-transform: uppercase;
+}
+.socialAcc_rightDivHeading {
+  font-size: 10rem;
+  font-weight: 600;
+}
+.socialAcc_rightDivPara {
+  font-size: 1.5rem;
+  width: 80%;
+  margin-top: 2rem;
+  color: gray;
+}
+.socialAcc_rightDivLinks {
+  margin: 4rem;
+}
+.socialAcc_rightDivLinksLayer {
+  display: flex;
+  margin-bottom: 2rem;
+}
+.socialAcc_rightDivLinksLayerCard {
+  display: flex;
+  margin-right: 2rem;
+  width: 50%;
+}
+.socialAcc_rightDivLinksLayerCardLogo {
+  font-size: 3rem;
+  color: aliceblue;
+  margin-top: 1rem;
+}
+.socialAcc_rightDivLinksLayerCardText {
+  font-size: 1.5rem;
+  color: gray;
+  font-weight: 300;
+  width: 50%;
+  margin-left: 1.5rem;
+}
+.socialAcc_rightDivLinksLayerCardSpan {
+  font-weight: 500;
+  color: rgb(167, 167, 167);
+}
+@media (min-width: 781px) and (max-width: 1279px) {
+  .socialAcc_rightDivTitle {
+    font-size: 2rem;
+  }
+  .socialAcc_rightDivHeading {
+    font-size: 5rem;
+  }
+  .socialAcc_rightDivPara {
+    font-size: 1.2rem;
+  }
+  .socialAcc_rightDivLinksLayerCardLogo {
+    font-size: 2rem;
+  }
+  .socialAcc_rightDivLinksLayerCardText {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 780px) {
+  .socialAcc {
+    flex-direction: column;
+  }
+  .socialAcc_leftDiv {
+    width: 98%;
+  }
+  .socialAcc_rightDiv {
+    margin: 5rem;
+    width: 98%;
+  }
+  .socialAcc_rightDivTitle {
+    font-size: 2rem;
+  }
+  .socialAcc_rightDivHeading {
+    font-size: 5rem;
+  }
+  .socialAcc_rightDivPara {
+    font-size: 1.2rem;
+  }
+  .socialAcc_rightDivLinksLayerCardLogo {
+    font-size: 2rem;
+  }
+  .socialAcc_rightDivLinksLayerCardText {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .socialAcc {
+    flex-direction: column;
+  }
+  .socialAcc_leftDiv {
+    width: 98%;
+  }
+  .socialAcc_rightDiv {
+    margin: 5rem;
+    width: 98%;
+  }
+  .socialAcc_rightDivTitle {
+    font-size: 2rem;
+  }
+  .socialAcc_rightDivHeading {
+    font-size: 5rem;
+  }
+  .socialAcc_rightDivPara {
+    font-size: 1.2rem;
+  }
+  .socialAcc_rightDivLinksLayerCardLogo {
+    font-size: 2rem;
+  }
+  .socialAcc_rightDivLinksLayerCardText {
+    font-size: 1.3rem;
+  }
+  .socialAcc_rightDivLinksLayer {
+    flex-direction: column;
+  }
+  .socialAcc_rightDivLinksLayerCard {
+    margin-top: 2rem;
+  }
+}

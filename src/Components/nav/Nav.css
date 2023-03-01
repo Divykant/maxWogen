@@ -1,0 +1,74 @@
+html {
+  font-size: 62.5%;
+}
+.navv {
+  background-color: rgb(37, 37, 37);
+}
+
+.nav_containerLogo {
+  color: gray;
+}
+.nav-link {
+  color: rgb(0, 0, 0) !important;
+}
+.nav_containerLogoSpan {
+  font-weight: 500;
+  background-color: gray;
+  padding: 0.8rem;
+  border-radius: 1rem;
+  text-transform: uppercase;
+  border: none;
+  font-size: 3rem;
+}
+.nav_containerLogoSpan2 {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #fff;
+  margin-left: 0.5rem;
+}
+.nav_itemsDiv {
+  font-size: 2rem;
+  color: gray;
+}
+.nav_toggle {
+  color: gray;
+}
+.nav_items {
+  margin: 1rem;
+  text-decoration: none;
+  font-weight: 600;
+  color: #fff;
+}
+.nav_items:hover {
+  color: gray;
+}
+.nav_itemsDropdown {
+  text-decoration: none;
+  height: 2vw;
+  font-size: 2rem;
+}
+.nav_offcanvas {
+  color: blueviolet;
+}
+.nav_offcanvasBody {
+  background-color: rgb(37, 37, 37);
+}
+.nav_offcanvasTitle {
+  font-size: 3rem;
+  font-weight: 500;
+}
+@media (min-width: 781px) and (max-width: 1279px) {
+  .nav_items {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 481px) and (max-width: 780px) {
+  .nav_items {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 480px) {
+  .nav_items {
+    font-size: 1.2rem;
+  }
+}
